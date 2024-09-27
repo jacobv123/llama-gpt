@@ -31,8 +31,8 @@ model_type="gguf"
 # Export the model value as an environment variable
 case $model in
     llama3-8b)
-        export MODEL_NAME="Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
-        export MODEL_DOWNLOAD_URL="https://huggingface.co/QuantFactory/Meta-Llama-3-8B-Instruct-GGUF/resolve/main/Meta-Llama-3-8B-Instruct.Q4_K_M.gguf"
+        export MODEL_NAME="Llama-3.1-8B-Lexi-Uncensored_V2_Q4.gguf"
+        export MODEL_DOWNLOAD_URL="https://huggingface.co/Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2-GGUF/blob/main/Llama-3.1-8B-Lexi-Uncensored_V2_Q4.gguf"
         export WAIT_TIMEOUT=3600
         export N_GQA=1
         model_type="gguf"
